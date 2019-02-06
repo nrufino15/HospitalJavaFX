@@ -1,8 +1,5 @@
 package sample.control;
 
-import hospital.model.Hospital;
-import hospital.model.Pacient;
-import hospital.model.Persona;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -10,7 +7,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
-
+import sample.model.Hospital;
+import sample.model.Pacient;
+import sample.model.Persona;
 import java.net.URL;
 import java.time.LocalDate;
 import java.util.ArrayList;
