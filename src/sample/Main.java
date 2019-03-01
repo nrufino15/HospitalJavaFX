@@ -21,12 +21,12 @@ public class Main extends Application {
     }
 
 
-    public static void main(String[] args) {
-        launch(args);
+    public static void main(String[] args) throws Exception {
+        csvToString();
     }
 
-    public void csvToString() throws Exception {
-        BufferedReader rd = new BufferedReader( new FileReader("C:/Users/user/Documents/running-example.csv"));
+    public static void csvToString() throws Exception {
+        BufferedReader rd = new BufferedReader( new FileReader("home/dam2a/IdeaProjects/HospitalJavaFX/src/sample/fxml"));
         String line = null;
         ArrayList lista = new ArrayList();
         String[] linea;

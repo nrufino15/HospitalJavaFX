@@ -4,10 +4,9 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="963.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="38.0" layoutY="103.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="hopspital" layoutX="18.0" layoutY="106.0" mnemonicParsing="false" text="Mostrar Lista" />
       <Button layoutX="38.0" layoutY="42.0" mnemonicParsing="false" text="Button" />
       <TableView fx:id="TVD" layoutX="138.0" prefHeight="677.0" prefWidth="825.0">
         <columns>
